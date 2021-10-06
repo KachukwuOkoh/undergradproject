@@ -13,7 +13,7 @@
 
 ## Dataset 
 
-First of, the dataset used were from an experiment conducted on yam dehydration which can be accessed here: .
+First of, the dataset used were from an experiment conducted on yam dehydration which can be accessed here: https://drive.google.com/file/d/1EUijQdymBHPggFsWUmpaVcR6Abla4EtK/view?usp=sharing.
  
 The independent variables comprises:
 - Temperature of drying operation 
