@@ -38,7 +38,7 @@ Models used as according to the type of dataset explored above were:
 
 
 
-## Model Training
+## Model Training and Evaluation
 
 About 83% was used in training the models while the rest (17%) for testing.
 
