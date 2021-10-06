@@ -31,7 +31,7 @@ t = targ.';
 trainFcn = 'trainlm'; % Levenberg-Marquadt
 
 
-% Optimise for the required number of neurons in the hidden layer
+%% Optimise for the required number of neurons in the hidden layer
 for i=1:50
     % defining architecture of the ANN fitnet
     RandStream.setGlobalStream(RandStream('mt19937ar','seed',10)); % to get constant result
@@ -42,13 +42,6 @@ for i=1:50
     net.divideParam.valRatio = 30/100;
     net.divideParam.testRatio = 0/100;
     
-    % Adding another layer
-    %net.numLayers = 3;
-    %net.layerConnect(3,2) = 1;
-    %net.outputConnect = [0 0 1];
-    %net.layers{2}.size = i;
-    %net.layers{2}.transferFcn = 'logsig';
-    %net.outputs{3}.range = [1 20];
     
     %TRAINING PARAMETERS
     net.trainParam.show = 100; %# of epochs in display
@@ -111,12 +104,6 @@ net.trainParam.lr = 0.0001; %learning rate
 net.trainParam.epochs = 700; %max epochs
 net.trainParam.goal = 0.0005^2; %training goal
 net.performFcn = 'mse'; %Name of a network performance function % help nnperformance
-
-%net.numLayers = 3;
-%net.layerConnect(3,2) = 1;
-%net.layers{2}.size = opt_number;
-%net.layers{2}.transferFcn = 'logsig';
-%net.outputs{3}.range = [1 20];
 
 %Train the Network
 [net,tr] = train(net,x,t);
