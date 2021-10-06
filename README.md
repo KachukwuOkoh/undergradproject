@@ -38,7 +38,7 @@ Models used as according to the type of dataset explored above were:
 
 
 
-## Model Training and Evaluation
+## Model Training 
 
 About 83% was used in training the models while the rest (17%) for testing.
 
@@ -50,6 +50,9 @@ An optimization technique was implemented to get the suitable model parameters f
 
 3. The *LSTM NN* was developed using Python. A part of the codes were referenced from online sites like https://machinelearningmastery.com/how-to-stop-training-deep-neural-networks-at-the-right-time-using-early-stopping/ and https://apmonitor.com/do/index.php/Main/LSTMNetwork. The model parameters checked for were Hidden Layers, Number of neurons in each Hidden Layer and the Number of effective Time Steps required for a sequence/pattern to be developed.
 
+
+
+## Model Evaluation
 
 The LSTM and Extra Trees models were seen as suitable predictive models showing values close enough to the actual moisture ratio from experimentation and good performance metrics with R squared values of 0.9988 and 0.999 respectively.
 
