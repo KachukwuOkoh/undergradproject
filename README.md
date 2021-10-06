@@ -38,7 +38,7 @@ Models used as according to the type of dataset explored above were:
 
 
 
-## Model Training 
+## Models Training 
 
 About 83% was used in training the models while the rest (17%) for testing.
 
@@ -52,7 +52,7 @@ An optimization technique was implemented to get the suitable model parameters f
 
 
 
-## Model Evaluation
+## Models Evaluation
 
 The LSTM and Extra Trees models were seen as suitable predictive models showing values close enough to the actual moisture ratio from experimentation and good performance metrics with R squared values of 0.9988 and 0.999 respectively.
 
