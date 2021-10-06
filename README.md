@@ -1,6 +1,6 @@
 # Deep Learning & Tree-Based Models for predictions
 
-![Python](https://user-images.githubusercontent.com/67152646/136196370-2e4f88e4-6784-4ffe-8e49-ae94c3ef952d.PNG) ![MATLABB](https://user-images.githubusercontent.com/67152646/136196397-b68a3acf-6634-4189-873e-745cc6c8493e.JPG)
+![Python](https://user-images.githubusercontent.com/67152646/136196370-2e4f88e4-6784-4ffe-8e49-ae94c3ef952d.PNG)![MATLABB](https://user-images.githubusercontent.com/67152646/136196397-b68a3acf-6634-4189-873e-745cc6c8493e.JPG)
 
     This folder contains implementation codes used for my undergraduate project with Python and MATLAB. 
     The aim was to predict the moisture ratio of harvested yam 
