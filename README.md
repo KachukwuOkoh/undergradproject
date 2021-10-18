@@ -26,8 +26,15 @@ The dependent variable is the Moisture Ratio
 
 ## Exploratory Data Analysis
 
+The dataset consists of drying temperatures in the range 65⁰C to 95⁰C, sizes of yam material in the range 1.5mm to 4.5mm, drying times in the range 0 to 320 minutes in different step sizes and their respective moisture ratios.
+
+A preview of the dataset is given below:
+![Dataset](https://user-images.githubusercontent.com/67152646/137716985-34c3bd64-3148-4745-9a62-a40cd1b2797d.JPG)
+
+
+
 On exploring the dataset, the dataset was found to have different properties. 
-- Numerical Features
+- Numerical Features 
 - Categorical Features 
 - Time-Series Features
 
