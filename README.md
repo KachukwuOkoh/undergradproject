@@ -163,5 +163,5 @@ After much iterations, insights from the figures above, sorting to get the optim
 
 ## Models Evaluation
 
-The LSTM and Extra Trees models were seen as suitable predictive models showing values close enough to the actual moisture ratio from experimentation and good performance metrics with R squared values of 0.9988 and 0.999 respectively.
+The LSTM, MLFNN and Extra Trees models were seen as suitable predictive models showing values close enough to the actual moisture ratio from experimentation and good performance metrics with R squared values of 0.988, 0.979 and 0.999 respectively.
 
